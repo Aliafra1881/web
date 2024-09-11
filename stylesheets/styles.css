@@ -1,0 +1,161 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    background-color: #80f0ff20;
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-bottom: 10px;
+}
+
+#navbar .brand_name {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #c4f8ff;
+    width: 10%;
+    height: 47px;
+    float: left;
+}
+
+#navbar .navbar_link {
+    background-color: #80f0ff;
+    width: 90%;
+    height: 47px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#navbar .navbar_link ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar .navbar_link ul li {
+    float: left;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#navbar .navbar_link ul li a:link,
+#navbar .navbar_link ul li a:visited {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s;
+    
+}
+
+#navbar .navbar_link ul li a:hover {
+    background-color: #c4f8ff;
+    color: #000000;
+    text-decoration: none;
+}
+
+#navbar .navbar_link ul li a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* table styles */
+.table-container{
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px;
+    overflow: auto;
+
+}
+
+.table td{
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    padding: 8px;
+   
+}
+
+.table tr{
+    background-color: #ffffff;
+    transition: all 0.3s;
+}
+.table tr:nth-child(even){
+    background-color: #aaaaaa;
+}
+.table tr:hover{
+    background-color: #c0ffff;
+}
+
+.table th{
+    border: 1px solid #242323;
+    padding: 10px 12px;
+    text-align: left;
+    background-color: #666666;
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* table styles */
+
+.card-container{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    height:290px;
+}
+
+.card{
+    width: 30%;
+    border: 1px solid #000;
+    margin-left: 2%;
+    float: left;
+}
+
+.card-header{
+    background-color: #535353;
+    color: #ffffff;
+    padding: 10px;
+}
+.card-body{
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px;
+    max-height: 210px;
+    overflow: auto;
+}
+.card-footer{
+    background-color: #6d6c6c;
+    color: #ffffff;
+    text-align: right;
+    padding: 10px 18px;
+}
+.card-footer a:link,
+.card-footer a:visited{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup-card{
+   max-height: fit-content;
+}
